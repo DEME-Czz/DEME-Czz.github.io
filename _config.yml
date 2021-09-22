@@ -14,8 +14,9 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
+#permalink: :year/:month/:day/:title/
 permalink: :year/:month/:day/:title/
-permalink_defaults:
+permalink_defaults: :title/
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -44,7 +45,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -68,13 +69,13 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  计算机科学: computer-science
-  Java: java
-  C++: cpp
-  二进制杂谈: note
-  计算机程序设计（C++）-西安交通大学: course-1
-  零基础学Java语言-浙江大学-翁恺: course-1
-  面向对象程序设计-Java语言-浙江大学-翁恺: course-2
+  # 计算机科学: computer-science
+  # Java: java
+  # C++: cpp
+  # 二进制杂谈: note
+  # 计算机程序设计（C++）-西安交通大学: course-1
+  # 零基础学Java语言-浙江大学-翁恺: course-1
+  # 面向对象程序设计-Java语言-浙江大学-翁恺: course-2
 
 tag_map:
 
